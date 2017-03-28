@@ -1,3 +1,2 @@
-A starter web app project of Internship 2016 II
-# Book-Library
+Web app project
 # Book-Library
