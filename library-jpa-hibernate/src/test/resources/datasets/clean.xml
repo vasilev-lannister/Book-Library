@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<dataset>
+	<USER_ROLE />	
+	<USERS />
+	<MESSAGE />
+	<BOOK />
+	<COMMENTS />
+	<BOOK_COPY />
+	<REQUEST />
+	<BORROW />
+	<AUTHOR />
+	<AUTHOR_BOOK />
+	<KEYWORDS_BOOK />
+</dataset>

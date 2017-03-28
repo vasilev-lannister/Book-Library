@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<dataset>
+	<USERS/>
+	<BOOK_CONTENT/>
+	<KEYWORDS_BOOKCONTENT/>
+	<AUTHOR_BOOKCONTENT/>
+	<BOOK/>
+	<MESSAGE/>
+	<COMMENTS/>
+	<REQUEST/>
+	<BORROW/>
+</dataset>

@@ -1,0 +1,21 @@
+div {
+	display:block; 
+}
+
+div.close {
+	display:none;
+}
+
+button {
+	font-family: 'Exo', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 30px;
+	height: 30px;
+	width: 130px;
+}
+
+p {
+	font-family: 'Exo', sans-serif;
+	font-size: 15px;
+}

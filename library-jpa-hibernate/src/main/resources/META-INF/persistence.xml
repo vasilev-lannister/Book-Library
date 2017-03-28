@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="library-jpa-hibernate">
+
+		<!-- All entities to work with in JPA. -->
+		<class>com.csc.booklibrary.domain.AuthorJPA</class>
+		<class>com.csc.booklibrary.domain.BookCopyJPA</class>
+		<class>com.csc.booklibrary.domain.BookJPA</class>
+		<class>com.csc.booklibrary.domain.BorrowJPA</class>
+		<class>com.csc.booklibrary.domain.CommentJPA</class>
+		<class>com.csc.booklibrary.domain.KeywordJPA</class>
+		<class>com.csc.booklibrary.domain.MessageJPA</class>
+		<class>com.csc.booklibrary.domain.PublisherJPA</class>
+		<class>com.csc.booklibrary.domain.RejectReasonJPA</class>
+		<class>com.csc.booklibrary.domain.RequestJPA</class>
+		<class>com.csc.booklibrary.domain.UserJPA</class>
+
+		<!-- Configure JDBC & hibernate -->
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@10.82.63.100:1521:INTERNSH" />
+			<property name="javax.persistence.jdbc.user" value="${db.username}" />
+ 			<property name="javax.persistence.jdbc.password" value="${db.password}" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect" />
+			<property name="hibernate.show_sql" value="true" />
+		</properties>
+
+	</persistence-unit>
+</persistence>

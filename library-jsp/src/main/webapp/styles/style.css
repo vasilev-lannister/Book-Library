@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+    background: #FFE4C4;
+}
+
+table, th, td {
+	border: 1px solid #FFF0F5;
+}
+
+th {
+	background: #FFA07A;
+}
+
+th, td, tr {
+	padding: 6px;
+	color: #F5FFFA;
+}
+
+table {
+	border-collapse: collapse;
+	background: #800000;
+}
+
+table tr th {
+	font-family: 'Abril Fatface', cursive;
+}
+
+tr td {
+	font-family: 'Exo', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.button {
+	font-family: 'Exo', sans-serif;
+	text-decoration: none;
+	background-color: #ff9933;
+	color: #333333;
+	padding: 2px 6px 2px 6px;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #CCCCCC;
+	display: inline-block;
+}
+
+.button:hover {
+	background-color: #BC8F8F;
+    color: #FFF;
+}
+
+.messageForm {
+	width: 200px;
+	height: 200px;
+	background: #FFA07A;
+	margin: auto;
+	padding: 10px;
+}
+
+.messageArea {
+	margin-bottom: 5px;
+	resize: none;
+	width: auto;
+	height: 5em;
+}
+
+.toUser {
+	margin: 5px 5px 5px 0px;
+	float: left;
+}
+
+.sendButton {
+	float: left;
+}
+
+.messageText {
+	float: left;
+}
+
+.notification {
+	display:block;
+	width:auto;
+	height:auto;
+	float:left;
+	color: red;
+	padding:3px;
+	font-weight: bold;
+}
+
+.entry{
+    display: table;
+    width: 320px;
+    margin: 10px;
+    font-family: 'Cabin', sans-serif;
+    font-style: italic;
+    color: #2F4F4F;
+}
+
+.entry input, .entry select {
+    float:right;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.requestComment textarea {
+	border-radius: 5px;
+    background: seashell;
+}
+
+.finalDateFieldEntry input {
+	border-radius: 5px;
+    height: 20px;
+    margin: 10px;
+}
+
+.wrongInput {
+	color: red;
+}
+
+.linkButton {
+	text-decoration: none;
+	color: white;
+	padding: 2px 6px 2px 6px;
+}

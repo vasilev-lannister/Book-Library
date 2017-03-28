@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<dataset>
+	<USER_ROLE USER_ROLE_ID="2" ROLE_NAME="user"/>
+	<USERS USER_ID="120" USERNAME="ivan1" PASSWORD="ivan123" FIRST_NAME="ivan" LAST_NAME="ivanov" USER_ROLE_ID="2" DATE_REGISTERED="2017-01-17" EMAIL="ivan1v@gmail.com"/>
+</dataset>

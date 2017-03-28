@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+textarea {
+	width: 40%;
+    height: 150px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    display: block;
+}
+
+p {
+	font-family: 'Cabin', sans-serif;
+    font-style: italic;
+    color: #2F4F4F;
+    margin: 10px;
+}
+
+form {
+	margin-left: 10px;
+}
+
+form button {
+	float: left;
+    margin-top: 5px;	
+}
+
+form button:nth-child(2) {
+	margin-left: 2px;
+	float:none;
+}
+
+
+
+
+

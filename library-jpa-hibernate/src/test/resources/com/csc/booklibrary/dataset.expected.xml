@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<dataset>
+	<USERS USERNAME="pesho1" PASSWORD="test password" FIRST_NAME="pesho" LAST_NAME="pesho" USER_ROLE_ID="2" EMAIL="peshopesho@gmail.com"/>
+	<USERS USERNAME="gosho1" PASSWORD="gosho" FIRST_NAME="gosho" LAST_NAME="gosho" USER_ROLE_ID="2" EMAIL="goshogosho@gmail.com"/>
+	<USERS USERNAME="mdownson" PASSWORD="marvin123" FIRST_NAME="test first name set" LAST_NAME="Downson" USER_ROLE_ID="1" EMAIL="mdownson@gmail.com"/>
+	<USERS USERNAME="ppetigrew" PASSWORD="petigrew123" FIRST_NAME="Peter" LAST_NAME="test last name set" USER_ROLE_ID="2" EMAIL="ppegirew@abv.bg"/>
+	<USERS USERNAME="hpotter" PASSWORD="potter123" FIRST_NAME="Harry" LAST_NAME="Potter" USER_ROLE_ID="1" EMAIL="hpotter@yahoo.com"/>
+</dataset>

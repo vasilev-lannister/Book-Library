@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.csc</groupId>
+    <artifactId>BookLibrary</artifactId>
+    <version>0.0.4-SNAPSHOT</version>
+  </parent>
+  <artifactId>library-overlay</artifactId>
+  <packaging>war</packaging>
+  <name>library-jsp</name>
+  
+  <dependencies>
+    <dependency>
+      <groupId>com.csc</groupId>
+	  <artifactId>library-initialization</artifactId>  
+    </dependency>
+    
+    <dependency>
+      <groupId>com.csc</groupId>
+	  <artifactId>library-jsp</artifactId>
+	  <version>0.0.4-SNAPSHOT</version>
+	  <type>war</type>
+	  <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>2.6</version>
+        <configuration>
+          <overlays>
+            <overlay>
+              <groupId>com.csc</groupId>
+	  		  <artifactId>library-jsp</artifactId>
+            </overlay>
+          </overlays>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
+          <warName>${name}</warName>
+		  <outputDirectory>${tomcat.location}</outputDirectory>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
